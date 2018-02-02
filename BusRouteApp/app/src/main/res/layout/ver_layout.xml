@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="48dp"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    android:layout_margin="@dimen/text_margin"
+    android:orientation="horizontal">
+
+    <com.cognizant.aman.busrouteapp.view.RecyclingImageView
+        android:id="@+id/pt_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_icon"/>
+</LinearLayout>

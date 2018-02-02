@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal">
+
+    <com.cognizant.aman.busrouteapp.view.RecyclingImageView
+        android:id="@+id/id_image"
+        android:layout_width="@dimen/image_thumbnail_size"
+        android:layout_height="@dimen/image_thumbnail_size"
+        android:layout_margin="@dimen/text_margin"
+        android:background="@color/bg_color" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem" />
+</LinearLayout>

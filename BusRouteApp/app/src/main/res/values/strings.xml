@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BusRouteApp</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="clear_cache_menu">Clear Caches</string>
+    <string name="clear_cache_complete_toast">Caches have been cleared</string>
+    <string name="imageview_description">Image Thumbnail</string>
+    <string name="no_network_connection_toast">No network connection found</string>
+    <string name="route">Route</string>
+    <string name="network_failed">Loading Failed.Please try again later by clicking download button.</string>
+</resources>
