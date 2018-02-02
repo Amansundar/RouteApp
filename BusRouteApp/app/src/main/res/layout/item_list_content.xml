@@ -6,7 +6,7 @@
     android:background="@drawable/list_selector"
     android:orientation="horizontal">
 
-    <com.cognizant.aman.busrouteapp.view.RecyclingImageView
+    <routeapp.android.aman.com.busroute.view.RecyclingImageView
         android:id="@+id/id_image"
         android:layout_width="@dimen/image_thumbnail_size"
         android:layout_height="@dimen/image_thumbnail_size"

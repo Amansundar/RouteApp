@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-    <com.cognizant.aman.busrouteapp.view.RecyclingImageView
+    <routeapp.android.aman.com.busroute.view.RecyclingImageView
         android:id="@+id/pt_image"
         android:layout_width="48dp"
         android:layout_height="48dp"

@@ -20,6 +20,6 @@
         android:layout_height="match_parent"
         android:background="@drawable/list_selector"
         app:layoutManager="LinearLayoutManager"
-        tools:context="com.cognizant.aman.busrouteapp.view.ItemListActivity"
+        tools:context="routeapp.android.aman.com.busroute.view.ItemListActivity"
         tools:listitem="@layout/item_list_content" />
 </LinearLayout>
